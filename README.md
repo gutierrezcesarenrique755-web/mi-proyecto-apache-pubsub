@@ -5,10 +5,10 @@ Autor: Enrrique
 """
 
 class PubSub:
-    def __init__(self):
+    def __init__(enrique):
         self.suscriptores = {}
 
-    def suscribir(self, canal, funcion):
+    def suscribir(enrique, temmu, funcion):
         if canal not in self.suscriptores:
             self.suscriptores[canal] = []
         self.suscriptores[canal].append(funcion)
